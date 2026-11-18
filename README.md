@@ -46,9 +46,7 @@
 <img src="https://skillicons.dev/icons?i=html,css,tailwind,js,php,laravel,mysql&theme=dark" alt="web dev" />
 
 ### 🎨 Design & Content Creation
-<img src="https://skillicons.dev/icons?i=figma,ps,ai&theme=dark" alt="design" />
-<br/>
-<img src="https://img.shields.io/badge/CapCut-000000?style=for-the-badge&logo=capcut&logoColor=white" alt="CapCut" />
+<img src="https://skillicons.dev/icons?i=figma,ps,ai&theme=dark" alt="design" /> <img src="./assets/capcut.svg" height="48" alt="CapCut" title="CapCut" />
 
 ### 📱 Exploring Mobile
 <img src="https://skillicons.dev/icons?i=androidstudio&theme=dark" alt="android studio" />
@@ -126,8 +124,9 @@
 
 <br/>
 
+<!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=4000&pause=1000&color=7C4DFF&center=true&vCenter=true&width=500&lines=Thanks+for+visiting!+%E2%9C%A8;Don't+forget+to+drop+a+%E2%AD%90+on+my+repos!" alt="footer typing" />
+  <img src="./assets/footer.svg" width="100%" alt="thanks for visiting" />
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,50:0052cc,100:0d1117&height=110&section=footer" width="100%" />
