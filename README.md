@@ -42,17 +42,40 @@
 
 <div align="center">
 
-**Frontend & Design**
+### 💻 Web Development
+<img src="https://skillicons.dev/icons?i=html,css,tailwind,js,php,laravel,mysql&theme=dark" alt="web dev" />
 
-<img src="https://skillicons.dev/icons?i=html,css,tailwind,js,figma&theme=dark" alt="frontend" />
+### 🎨 Design & Content Creation
+<img src="https://skillicons.dev/icons?i=figma,ps,ai&theme=dark" alt="design" />
+<br/>
+<img src="https://img.shields.io/badge/CapCut-000000?style=for-the-badge&logo=capcut&logoColor=white" alt="CapCut" />
 
-**Backend & Database**
+### 📱 Exploring Mobile
+<img src="https://skillicons.dev/icons?i=androidstudio&theme=dark" alt="android studio" />
 
-<img src="https://skillicons.dev/icons?i=php,laravel,mysql&theme=dark" alt="backend" />
-
-**Tools & Workflow**
-
+### 🧰 Tools & Workflow
 <img src="https://skillicons.dev/icons?i=git,github,vscode&theme=dark" alt="tools" />
+
+<br/><br/>
+
+<table>
+  <tr>
+    <th>Level</th>
+    <th>Tools</th>
+  </tr>
+  <tr>
+    <td>🟢 <b>Daily Use</b></td>
+    <td>HTML · CSS · Tailwind · JavaScript · PHP · Laravel · MySQL · Git</td>
+  </tr>
+  <tr>
+    <td>🟡 <b>Intermediate</b></td>
+    <td>CapCut (video editing for content)</td>
+  </tr>
+  <tr>
+    <td>🌱 <b>Learning</b></td>
+    <td>Figma · Adobe Photoshop · Adobe Illustrator · Android Studio</td>
+  </tr>
+</table>
 
 </div>
 
