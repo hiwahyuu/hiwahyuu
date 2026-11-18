@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 330" width="520" height="330">
+  <defs>
+    <style>
+      text { font-family: 'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace; font-size: 14px; }
+      .p { fill: #00ffa3; } .path { fill: #00d4ff; } .cmd { fill: #e6edf3; }
+      .k { fill: #7c8db5; } .v { fill: #e6edf3; } .hl { fill: #ffcb6b; } .pk { fill: #ff79c6; }
+      .dim { fill: #4d6690; }
+      .cover { animation-duration: 16s; animation-iteration-count: infinite; animation-timing-function: linear; }
+      .l0 { animation-name: r0; } .l1 { animation-name: r1; } .l2 { animation-name: r2; }
+      .l3 { animation-name: r3; } .l4 { animation-name: r4; } .l5 { animation-name: r5; }
+      .l6 { animation-name: r6; } .l7 { animation-name: r7; } .l8 { animation-name: r8; }
+      .l9 { animation-name: r9; }
+      @keyframes r0 { 0%{transform:translateX(0);animation-timing-function:steps(18,end)} 9%{transform:translateX(480px)} 100%{transform:translateX(480px)} }
+      @keyframes r1 { 0%,11%{transform:translateX(0)} 13%,100%{transform:translateX(480px)} }
+      @keyframes r2 { 0%,15%{transform:translateX(0);animation-timing-function:steps(18,end)} 24%,100%{transform:translateX(480px)} }
+      @keyframes r3 { 0%,26%{transform:translateX(0)} 28%,100%{transform:translateX(480px)} }
+      @keyframes r4 { 0%,29%{transform:translateX(0)} 31%,100%{transform:translateX(480px)} }
+      @keyframes r5 { 0%,32%{transform:translateX(0)} 34%,100%{transform:translateX(480px)} }
+      @keyframes r6 { 0%,37%{transform:translateX(0);animation-timing-function:steps(22,end)} 48%,100%{transform:translateX(480px)} }
+      @keyframes r7 { 0%,50%{transform:translateX(0)} 52%,100%{transform:translateX(480px)} }
+      @keyframes r8 { 0%,58%{transform:translateX(0)} 60%,100%{transform:translateX(480px)} }
+      @keyframes r9 { 0%,62%{transform:translateX(0);animation-timing-function:steps(10,end)} 68%,100%{transform:translateX(480px)} }
+      .bar { transform-origin: 0 0; animation: grow 16s infinite; }
+      @keyframes grow { 0%,52%{transform:scaleX(0)} 58%{transform:scaleX(1)} 100%{transform:scaleX(1)} }
+      .fade { animation: fadeAll 16s infinite; }
+      @keyframes fadeAll { 0%,94%{opacity:1} 98%{opacity:0} 100%{opacity:0} }
+      .cursor { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .glow { animation: glow 3s ease-in-out infinite; }
+      @keyframes glow { 0%,100%{stroke-opacity:.25} 50%{stroke-opacity:.7} }
+    </style>
+    <clipPath id="body"><rect x="4" y="38" width="512" height="288" rx="12"/></clipPath>
+  </defs>
+
+  <rect x="2" y="2" width="516" height="326" rx="14" fill="#0b111d"/>
+  <rect class="glow" x="2" y="2" width="516" height="326" rx="14" fill="none" stroke="#00d4ff" stroke-width="2"/>
+  <path d="M2 16 a14 14 0 0 1 14 -14 H504 a14 14 0 0 1 14 14 V38 H2 Z" fill="#141d31"/>
+  <circle cx="24" cy="20" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="20" r="6" fill="#ffbd2e"/>
+  <circle cx="64" cy="20" r="6" fill="#27c93f"/>
+  <text x="260" y="25" text-anchor="middle" class="dim" style="font-size:12px">wahyu@amikom: ~ — zsh</text>
+
+  <g class="fade" clip-path="url(#body)">
+    <text x="20" y="66"><tspan class="p">➜ </tspan><tspan class="path">~ </tspan><tspan class="cmd">whoami</tspan></text>
+    <text x="20" y="88" class="v">Wahyu Fadhil Atsani <tspan class="dim">// a.k.a</tspan> <tspan class="pk">hiwahyuu</tspan></text>
+    <text x="20" y="118"><tspan class="p">➜ </tspan><tspan class="path">~ </tspan><tspan class="cmd">cat profile.json</tspan></text>
+    <text x="20" y="140"><tspan class="k">  "campus": </tspan><tspan class="hl">"Universitas Amikom Yogyakarta"</tspan></text>
+    <text x="20" y="160"><tspan class="k">  "role":   </tspan><tspan class="hl">"Web Dev &amp; UI/UX Explorer"</tspan></text>
+    <text x="20" y="180"><tspan class="k">  "hobby":  </tspan><tspan class="hl">"Gaming 🎮 &amp; Live Streaming"</tspan></text>
+    <text x="20" y="210"><tspan class="p">➜ </tspan><tspan class="path">~ </tspan><tspan class="cmd">php artisan learn:laravel</tspan></text>
+    <text x="20" y="234" class="dim">  [</text>
+    <rect x="44" y="224" width="300" height="12" rx="3" fill="#1b2640"/>
+    <rect class="bar" x="44" y="224" width="300" height="12" rx="3" fill="#00d4ff"/>
+    <text x="352" y="234" class="dim">] </text>
+    <text x="374" y="234" class="p">78%</text>
+    <text x="20" y="258" class="v">  ✔ <tspan class="p">Advanced architecture</tspan><tspan class="dim"> in progress...</tspan></text>
+    <text x="20" y="290"><tspan class="p">➜ </tspan><tspan class="path">~ </tspan><tspan class="cmd">git push</tspan></text>
+    <rect class="cursor" x="128" y="278" width="9" height="16" fill="#00ffa3"/>
+
+    <g fill="#0b111d">
+      <rect class="cover l0" x="14" y="50" width="480" height="22"/>
+      <rect class="cover l1" x="14" y="73" width="480" height="22"/>
+      <rect class="cover l2" x="14" y="102" width="480" height="22"/>
+      <rect class="cover l3" x="14" y="125" width="480" height="20"/>
+      <rect class="cover l4" x="14" y="145" width="480" height="20"/>
+      <rect class="cover l5" x="14" y="165" width="480" height="20"/>
+      <rect class="cover l6" x="14" y="194" width="480" height="22"/>
+      <rect class="cover l7" x="14" y="218" width="480" height="22"/>
+      <rect class="cover l8" x="14" y="242" width="480" height="22"/>
+      <rect class="cover l9" x="14" y="274" width="480" height="24"/>
+    </g>
+  </g>
+</svg>
